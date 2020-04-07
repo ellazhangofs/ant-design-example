@@ -1,4 +1,5 @@
 {
+  "homepage": "http://ellazhangofs.github.io/ant-design-example",
   "name": "ofsplatformui",
   "version": "0.1.0",
   "private": true,
@@ -30,7 +31,9 @@
     "build": "webpack --mode production",
     "test": "cross-env CI=true react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject",
-    "lint": "eslint src/**/*.ts src/**/*.tsx"
+    "lint": "eslint src/**/*.ts src/**/*.tsx",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "coveragePathIgnorePatterns": [
