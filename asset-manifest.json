@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ellazhangofs/ant-design-example/static/css/main.af35a140.chunk.css",
+    "main.js": "/ellazhangofs/ant-design-example/static/js/main.40e34023.chunk.js",
+    "main.js.map": "/ellazhangofs/ant-design-example/static/js/main.40e34023.chunk.js.map",
+    "runtime-main.js": "/ellazhangofs/ant-design-example/static/js/runtime-main.195360cf.js",
+    "runtime-main.js.map": "/ellazhangofs/ant-design-example/static/js/runtime-main.195360cf.js.map",
+    "static/css/2.4a9ce227.chunk.css": "/ellazhangofs/ant-design-example/static/css/2.4a9ce227.chunk.css",
+    "static/js/2.088a242d.chunk.js": "/ellazhangofs/ant-design-example/static/js/2.088a242d.chunk.js",
+    "static/js/2.088a242d.chunk.js.map": "/ellazhangofs/ant-design-example/static/js/2.088a242d.chunk.js.map",
+    "index.html": "/ellazhangofs/ant-design-example/index.html",
+    "precache-manifest.974b5bfc498dee3c87840462946218b6.js": "/ellazhangofs/ant-design-example/precache-manifest.974b5bfc498dee3c87840462946218b6.js",
+    "service-worker.js": "/ellazhangofs/ant-design-example/service-worker.js",
+    "static/css/2.4a9ce227.chunk.css.map": "/ellazhangofs/ant-design-example/static/css/2.4a9ce227.chunk.css.map",
+    "static/css/main.af35a140.chunk.css.map": "/ellazhangofs/ant-design-example/static/css/main.af35a140.chunk.css.map",
+    "static/js/2.088a242d.chunk.js.LICENSE.txt": "/ellazhangofs/ant-design-example/static/js/2.088a242d.chunk.js.LICENSE.txt",
+    "static/media/image.png": "/ellazhangofs/ant-design-example/static/media/image.8735c1c8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.195360cf.js",
+    "static/css/2.4a9ce227.chunk.css",
+    "static/js/2.088a242d.chunk.js",
+    "static/css/main.af35a140.chunk.css",
+    "static/js/main.40e34023.chunk.js"
+  ]
+}
