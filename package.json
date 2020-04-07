@@ -1,0 +1,92 @@
+{
+  "name": "ofsplatformui",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.tsx",
+  "dependencies": {
+    "@ant-design/icons": "^4.0.5",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.7",
+    "@types/redux": "^3.6.0",
+    "ant-design-pro": "^2.3.2",
+    "antd": "^4.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open --hot",
+    "start": "react-scripts start",
+    "build": "webpack --mode production",
+    "test": "cross-env CI=true react-scripts test --env=jsdom --coverage",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.ts src/**/*.tsx"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "src/*"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 100,
+        "branches": 100,
+        "lines": 100,
+        "functions": 100
+      }
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint && npm test"
+    }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@types/enzyme": "^3.10.3",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "cross-env": "^6.0.3",
+    "dotenv": "^8.2.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "eslint": "^6.6.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.16.0",
+    "html-webpack-plugin": "^4.0.4",
+    "husky": "^3.0.9",
+    "jest": "^24.9.0",
+    "react-test-renderer": "^16.11.0",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.2.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
